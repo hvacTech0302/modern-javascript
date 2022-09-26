@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const key = '5wzQwWS5cTJsIA05b9n81S02haZ93YGq'
 
 const getWeather = async (id) => {

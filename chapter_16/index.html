@@ -16,8 +16,7 @@
   <div class="container my-5">
     <h2>Recipes</h2>
     <ul>
-      <li>Mushroom pie</li>
-      <li>Veg curry</li>
+      
     </ul>
     <form>
       <label for="recipe">Add a new recipe:</label>
@@ -34,13 +33,14 @@
   <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
   <script>
     // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyBSEjfIg32YR9X0w8vdvmEJ8VkdqVS85Gk",
-      authDomain: "udemy-js-ab45b.firebaseapp.com",
-      databaseURL: "https://udemy-js-ab45b.firebaseio.com",
-      projectId: "udemy-js-ab45b",
-      storageBucket: "udemy-js-ab45b.appspot.com",
-      messagingSenderId: "307507834502"
+    const config = {
+      apiKey: "AIzaSyABY5lcXdngZuVPP_eV6IGY_ffuvVtAp6w",
+      authDomain: "udemy-modern-javascript-9d750.firebaseapp.com",
+      projectId: "udemy-modern-javascript-9d750",
+      storageBucket: "udemy-modern-javascript-9d750.appspot.com",
+      messagingSenderId: "198988305866",
+      appId: "1:198988305866:web:8b2a224fa5d3be0461eb33",
+      measurementId: "G-JP8X973QLQ"
     };
     firebase.initializeApp(config);
     const db = firebase.firestore();  

@@ -3,7 +3,7 @@
 }
 
 .btn {
-    background: #43d9be;
+    background: #0898d2;
     color: white;
     outline: none !important;
     box-shadow: none !important
@@ -11,4 +11,22 @@
 
 .btn:focus {
     outline: none !important
+}
+
+.username {
+    font-weight: bold;
+}
+
+.time {
+    font-size: 0.7em;
+    color: #999
+}
+
+.update-mssg {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.username {
+    color: #0898d2
 }
